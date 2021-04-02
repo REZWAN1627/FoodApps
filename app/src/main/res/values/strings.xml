@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Food Mobile Apps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="productName">Beef Burger with fresh cheese and onion served with fries and drink. Enjoy our 20% off offer with NEW Promo code</string>
+</resources>
