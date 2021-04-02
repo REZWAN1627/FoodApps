@@ -24,16 +24,15 @@
 
             <ImageView
                 android:id="@+id/MenuBurger"
-                android:layout_width="match_parent"
+                android:layout_width="@dimen/_155sdp"
                 android:layout_height="@dimen/_150sdp"
                 android:src="@drawable/burger" />
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_10sdp">
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_gravity="center">
 
                 <LinearLayout
                     android:id="@+id/linearLayout2"
@@ -111,16 +110,15 @@
 
             <ImageView
                 android:id="@+id/MenuBurger1"
-                android:layout_width="match_parent"
+                android:layout_width="@dimen/_155sdp"
                 android:layout_height="@dimen/_150sdp"
                 android:src="@drawable/burger" />
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_10sdp">
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_gravity="center">
 
                 <LinearLayout
                     android:id="@+id/linearLayout3"
