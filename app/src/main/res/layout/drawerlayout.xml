@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/BaseUI"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_15sdp"/>
+    <RelativeLayout
+        android:onClick="Home"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_orderbutton">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"/>
+
+    </RelativeLayout>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_15sdp"/>
+    <RelativeLayout
+        android:onClick="Favourite"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_orderbutton">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favourite"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"/>
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_15sdp"/>
+
+    <RelativeLayout
+        android:onClick="Coupons"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_orderbutton">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coupons"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"/>
+
+    </RelativeLayout>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_15sdp"/>
+    <RelativeLayout
+        android:onClick="Offers"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_orderbutton">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offers"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"/>
+
+    </RelativeLayout>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_15sdp"/>
+    <RelativeLayout
+        android:onClick="Settings"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_orderbutton">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"/>
+
+    </RelativeLayout>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_15sdp"/>
+    <RelativeLayout
+        android:onClick="About"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_orderbutton">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

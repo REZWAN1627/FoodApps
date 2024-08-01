@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BaseUI"
+    android:orientation="vertical">
+
+   <RelativeLayout
+       android:id="@+id/dialogback"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:padding="@dimen/_10sdp">
+       <ImageView
+           android:layout_width="@dimen/_25sdp"
+           android:layout_height="@dimen/_25sdp"
+           android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+   </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/MenuBurgerDialog"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/burger" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/BurgerItemNameDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burger Name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/BurgerItemContainsDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onion with cheese"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp" />
+
+
+        <TextView
+            android:id="@+id/BurgerItemPriceDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$18.00"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/DialogTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.15pm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DialogTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total cost: $ 150"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DialogFoodOrdered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food item ordered: 5"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_50sdp" />
+
+    <RelativeLayout
+        android:id="@+id/dialogThankyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/color_orderbutton"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank You!"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BaseUI"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/MenuFavourite"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/burger" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/FavouriteItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burger Name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/FavouriteItemContains"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onion with cheese"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp" />
+
+
+        <TextView
+            android:id="@+id/FavouriteItemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$18.00"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
